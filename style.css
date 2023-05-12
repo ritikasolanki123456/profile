@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #f3f1f1;
+}
+:root {
+    /* text color */
+    --text-white: #fff;
+    --text-black: #2c2c2c;
+    --text-light-black: #444;
+    --text-light-pink: #ff007a;
+    --text-light-gray: #7e8085;
+
+     /* background color */
+     --primary-color:#fd4766;
+     --secondary-color:#0e1525;
+     --bg-dark-blue:#091020;
+     --bg-white:#fff;
+     --gray-color:#c6c9d8bf;
+     --gradient-color:linear-gradient(-224deg, var(--primary-color) 0, #337dff 100%);
+     --gradient-text:linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, var(--primary-color) 79.69%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondary-color)', Gradient-Type=1);
+ 
+       /* text color */
+       --primary-font:'Poppins', sans-serif;
+       --primary-text:#fd4766;
+       --text-gray:#c6c9d8bf;
+}
+
+
+/* navigation CSS */
+#header .fixed-top {
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 5%);
+}
+
+#header .navbar-nav .nav-item {
+    position: relative;
+    display: inline;
+}
+
+#header .navbar-nav .nav-item .nav-link {
+    color: var(--text-black);
+    padding: 0.5rem 2rem;
+    text-align: center;
+    transition: 0.3s linear;
+}
+
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active {
+    color: rgb(241, 94, 94);
+    text-decoration: line-through;
+}
+
+#header .navbar-toggler-icon {
+    width: unset;
+    height: unset;
+}
+
+#header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: rgb(241, 94, 94);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+header {
+    background: #f6f9fe;
+}
+
+.title {
+    margin-top: 2rem;
+}
+.title-name{
+    color:  rgb(241, 94, 94);
+}
+.subtitle{
+    /* display: inline-block; */
+    font-size: 16px;
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* swiper css */
+.cards {
+    margin-top: 6rem;
+    /* position: relative; */
+    height: 100%;
+    /* padding: 0 3rem; */
+    border-radius: 8px;
+    /* border-bottom: none; */
+}
+
+.react {
+    margin-top: 3rem;
+    position: relative;
+    height: 100%;
+}
+
+.cards h2 {
+    padding-bottom: 1.8rem;
+}
+.cards h2 span{
+    padding-bottom: 1rem;
+    color: #222;
+    line-height: 54px;
+    font-weight: 500;
+    font-size: 46px;
+    font-family: 'League Spartan', sans-serif;
+    border-bottom: 2px solid rgb(243, 119, 119);
+}
+
+.title-name {
+    padding: 0.5rem 0;
+}
+
+.card {
+    position: relative;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    transition: all 0.3s linear;
+}
+.swiper:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-5px);
+}
+
+.swiper-wrapper {
+    border-radius: 4px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    /* margin-bottom: 2rem; */
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
+
+.swiper-slide a .card img.slide-img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.react .swiper-slide a .card img.slide-img {
+    width: 100%;
+    height: 270px;
+    /* max-height: 300px; */
+}
+
+.swiper-slide a .card img.slide-img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+/* .swiper-button-next {
+    position: absolute;
+    right: 2rem;
+
+}
+.swiper-button-prev{
+    position: absolute;
+    left: 2rem;
+} */

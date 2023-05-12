@@ -1,0 +1,175 @@
+@media (max-width:1030px) {
+    .cards h2 span{
+        line-height: 24px;
+        font-size: 36px;
+    }
+    
+    .swiper-slide {
+        margin-bottom: 1.3rem;
+    }
+    .cards h2 {
+        padding-bottom: 1.6rem;
+    }
+    .firstPage .swiper-slide a .card img.slide-img {
+        width: 100%;
+        height: 200px;
+    }
+    .react .swiper-slide a .card img.slide-img {
+        width: 100%;
+        height: 230px;
+    }
+    
+    
+}
+
+@media (max-width:1024px) {
+    .cards h2.html-css {
+        padding-top: 2.5rem;
+    }
+
+    .cards {
+        margin-top: 2.5rem;
+    }
+
+    .cards h2 {
+        padding-bottom: 2rem;
+    }
+
+    .firstPage .swiper-slide a .card img.slide-img {
+        width: 100%;
+        height: 200px;
+    }
+    .react .swiper-slide a .card img.slide-img {
+        width: 100%;
+        height: 250px;
+    }    
+
+    .cards h2 span {
+        padding-bottom: 1rem;
+        line-height: 0px;
+        font-size: 26px;
+    }
+
+    .swiper-slide {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:991px) {
+    .cards h2.html-css {
+        padding-top: 2.5rem;
+    }
+
+    .cards {
+        margin-top: 2rem;
+    }
+
+    .cards h2 {
+        padding-bottom: 2rem;
+    }
+
+    .firstPage .swiper-slide a .card img.slide-img {
+        height: 200px;
+    }
+    .react .swiper-slide a .card img.slide-img {
+        height: 200px;
+    }
+    
+    .cards h2 span {
+        padding-bottom: 1rem;
+        line-height: 0px;
+        font-size: 26px;
+    }
+
+    .swiper-slide {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:767px) {
+    .cards h2.html-css {
+        padding-top: 2.5rem;
+    }
+
+    .cards {
+        margin-top: 2rem;
+    }
+
+    .cards h2 {
+        padding-bottom: 1rem;
+    }
+
+    .firstPage .swiper-slide a .card img.slide-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .cards h2 span {
+        padding-bottom: 1rem;
+        line-height: 0px;
+        font-size: 26px;
+    }
+
+    .swiper-slide {
+        margin-bottom: 1rem;
+    }
+    .react .swiper-slide a .card img.slide-img {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media (max-width:425px) {
+    .cards h2 {
+        padding-bottom: 2rem;
+    }
+
+    .firstPage .swiper-slide a .card img.slide-img {
+        width: 100%;
+        height: 180px;
+    }
+    .react .swiper-slide a .card img.slide-img {
+        width: 100%;
+        height: 180px;
+    }
+}
+
+@media (max-width:375px) {
+    .cards h2 {
+        padding-bottom: 1rem;
+    }
+
+    .firstPage .swiper-slide a .card img.slide-img {
+        height: 150px;
+    }
+    .react .swiper-slide a .card img.slide-img {
+        height: 150px;
+    }
+}
+
+@media (max-width:330px) {
+    .cards {
+        margin-top: 2rem;
+    }
+
+    .cards h2 {
+        padding-bottom: 2rem;
+    }
+    .cards h2 span {
+        padding-bottom: 0.5rem;
+    }
+
+    .cards h2.html-css {
+        padding-top: 2rem;
+    }
+
+    .cards h2 span {
+        padding-bottom: 1rem;
+        line-height: 0px;
+        font-size: 26px;
+    }
+
+    .swiper-slide {
+        margin-bottom: 0rem;
+    }
+}
